@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MainRouters from "./MainRouters";
+import { BrowserRouter } from "react-router-dom";
+import { WalletContextProvider } from "./context/WalletContext";
+import { FetchDataContextProvider } from "./context/FetchDataContext";
+import { MessageContextProvider } from "./context/MessageContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MessageContextProvider>
+      <FetchDataContextProvider>
+        <WalletContextProvider>
+          <BrowserRouter>
+            <MainRouters />
+          </BrowserRouter>
+        </WalletContextProvider>
+      </FetchDataContextProvider>
+    </MessageContextProvider>
   );
 }
 
