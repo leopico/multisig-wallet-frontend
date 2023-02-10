@@ -24,7 +24,7 @@ To run this project, you will need to add the following environment variables to
 
 - Have to assign `contractAbi`.
 
-- Have to increate `+1` at (txId) variable of (getTrans) fn of Transcation.jsx of pages folder after you deposited to contract because of I not yet sync for deposite transcation (txId).  
+- Have to increase `+1` at (txId) variable of (getTrans) fn of Transcation.jsx of pages folder after you deposited to contract because of I not yet sync for deposite transcation (txId).  
 
 
 
