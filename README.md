@@ -16,7 +16,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Demo
 
-[deploy on vecel](multisig-wallet-frontend-lcqwq583p-leopico.vercel.app).
+[deploy on vecel](https://multisig-wallet-frontend.vercel.app/)).
 
 - Note --> You can not see on Transcation histories on the vercel deployment because of can not increase `+1` for txId.
 
