@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../images/Logo.png";
-import Tooltip from "react-simple-tooltip";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import Wallet from "../../components/wallet/Wallet";
 import { contractAddress } from "../../components/Constant";
@@ -35,15 +34,13 @@ const Master = (props) => {
             <div className="text-center">
               <small className="text-black me-2">{contractAdd}</small>
               <CopyToClipboard text={contractAddress}>
-                <Tooltip onClick={() => clickCopy()} content="copy">
-                  <button className="btn p-1">
+                  <button onClick={() => clickCopy()}  className="btn p-1">
                     {copy ? (
                       <i className="fa-solid fa-clone text-black"></i>
                     ) : (
                       <i className="fa-regular fa-circle-check text-black"></i>
                     )}
                   </button>
-                </Tooltip>
               </CopyToClipboard>
             </div>
             <div className="d-block btn btn-sm bg-black text-white mt-4 p-0">
