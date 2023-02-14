@@ -1,7 +1,7 @@
 
 # Multisig-wallet front end
 
-This pj was demo multisig_wallet with react and ether.js frameword.
+This pj was demo multisig_wallet with react and ether.js framework.
 
 
 ## Environment Variables
