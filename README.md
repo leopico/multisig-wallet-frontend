@@ -29,5 +29,5 @@ To run this project, you will need to add the following environment variables to
 ## Tech Stack
 
 
-**Client:** React, react-router-dom and react-libiaries, Ethers.js
+**Client:** React, react-router-dom and react-libiaries, Ethers.js,bootstrapv5
 
