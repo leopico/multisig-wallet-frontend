@@ -3,6 +3,11 @@
 
 This pj was demo multisig_wallet with react and ether.js framework.
 
+- You have to clone this repo.
+```shell
+https://github.com/leopico/voting-dao-frontend.git
+```
+
 
 ## Environment Variables
 
@@ -13,6 +18,8 @@ To run this project, you will need to add the following environment variables to
 - Have to assign `contractAbi`.
 
 - Have to increase `+1` at (txId) variable of (getTrans) fn of Transcation.jsx of pages folder after you deposited to contract because of I not yet sync for deposite transcation (txId). 
+
+- Note You must deploy with your localhost because of you have to assign contract address and abi.
 
 ## Demo
 
