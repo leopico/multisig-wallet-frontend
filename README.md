@@ -5,7 +5,7 @@ This pj was demo multisig_wallet with react and ether.js framework.
 
 - You have to clone this repo.
 ```shell
-https://github.com/leopico/voting-dao-frontend.git
+https://github.com/leopico/multisig-wallet-frontend.git
 ```
 
 
